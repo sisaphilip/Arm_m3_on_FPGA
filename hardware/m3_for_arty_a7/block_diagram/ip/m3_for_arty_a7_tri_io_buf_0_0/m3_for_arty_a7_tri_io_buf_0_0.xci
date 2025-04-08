@@ -1,0 +1,50 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "m3_for_arty_a7_tri_io_buf_0_0",
+    "cell_name": "tri_io_buf_0",
+    "component_reference": "xilinx.com:module_ref:tri_io_buf:1.0",
+    "ip_revision": "1",
+    "gen_directory": ".",
+    "parameters": {
+      "component_parameters": {
+        "WIDTH": [ { "value": "1", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "Component_Name": [ { "value": "m3_for_arty_a7_tri_io_buf_0_0", "resolve_type": "user", "usage": "all" } ]
+      },
+      "model_parameters": {
+        "WIDTH": [ { "value": "1", "resolve_type": "generated", "format": "long", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "artix7" } ],
+        "BASE_BOARD_PART": [ { "value": "" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7a35ti" } ],
+        "PACKAGE": [ { "value": "csg324" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1L" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "I" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "1" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "." } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2024.2" } ],
+        "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "din": [ { "direction": "in", "size_left": "0", "size_right": "0" } ],
+        "oen_N": [ { "direction": "in" } ],
+        "io_pad": [ { "direction": "inout", "size_left": "0", "size_right": "0" } ],
+        "dout": [ { "direction": "out", "size_left": "0", "size_right": "0" } ]
+      }
+    }
+  }
+}
